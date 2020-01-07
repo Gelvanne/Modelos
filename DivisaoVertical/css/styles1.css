@@ -1,0 +1,39 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: : none;
+	color: black;
+}
+
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+p {
+	margin: 0;
+	padding-bottom: 50px;
+}
+
+#esquerdo {
+	height:100%; /* Altura cima baixo vertical*/
+	width:20%; /*espaço utilizado para a direita*/
+	background-color: #242506; /*Cor do fundo*/
+	text-align:center; /* Alinhamento do Texto*/
+	font-size: 20px; /*Tamanho da fonte*/
+	color: white; /*Cor da fonte*/
+	float: left; /* Divisão da coluna faz ela flutuar a esquerda*/
+}
+#direito {
+	background-color: pink;
+	height:100%; /* Altura cima baixo vertical*/
+	width:80%; /*espaço utilizado para a direita*/
+	text-align:justify; /* Alinhamento do Texto*/
+	font-size: 20px; /*Tamanho da fonte*/
+	color: black; /*Cor da fonte*/
+	float: right; /* Divisão da coluna faz ela flutuar a esquerda*/
+}
